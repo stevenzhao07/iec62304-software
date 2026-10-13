@@ -1,0 +1,8 @@
+iec62304-software
+========================
+可插拔模块（lgd-skeleton/1.0）。医疗器械软件生命周期（IEC 62304 安全分级/过程映射）。
+入口: scripts/sw_lifecycle.py
+元数据: module.json
+总入口: medical-ai-toolkit
+关联: samd-ra-toolkit, design-controls-toolkit, cybersecurity-medical
+许可: CC-BY-4.0 · 贡献者: @stevenzhao07 (MedXpert)

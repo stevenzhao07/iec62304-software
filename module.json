@@ -1,0 +1,41 @@
+{
+  "id": "iec62304-software",
+  "title": "医疗器械软件生命周期（IEC 62304 安全分级/过程映射）",
+  "description": "IEC 62304:2006+A1:2015 医疗器械软件生命周期工具：软件安全等级 A/B/C 判定器（基于伤害可能性×严重度）、软件开发生命周期过程清单（策划/需求/架构/单元/集成/系统测试/发布/维护）、与 Agile/CI 实践的映射建议、SOUP 第三方组件管理检查点。",
+  "triggers": {
+    "keywords": [
+      "iec62304",
+      "software-lifecycle",
+      "软件安全等级",
+      "soup",
+      "医疗软件",
+      "agile"
+    ],
+    "file_patterns": [
+      "sw_lifecycle.py"
+    ],
+    "intents": [
+      "软件安全分级",
+      "62304 自查",
+      "SOUP 管理"
+    ]
+  },
+  "provides": [
+    "iec62304-software",
+    "safety-class",
+    "sw-checklist",
+    "soup-register"
+  ],
+  "skills": [],
+  "needs_backends": [],
+  "license": "CC-BY-4.0",
+  "upstream": null,
+  "cost": "low",
+  "lazy": true,
+  "nested": true,
+  "entry": "scripts/sw_lifecycle.py",
+  "deps": [],
+  "generated_by": "lgd-skeleton/1.0 (manual port from rea scaffold)",
+  "idea": "IEC 62304 软件安全分级判定 + 生命周期过程清单",
+  "extension_note": "新增过程项：在 SW_PROCESSES 加一项。"
+}
